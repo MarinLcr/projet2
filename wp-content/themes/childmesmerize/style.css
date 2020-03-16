@@ -1,0 +1,625 @@
+/*
+Theme Name: childmesmerize
+Description: Theme enfant du thème "Mesmerize"
+Author: Leclerc Marin
+Author URI: 
+Template: mesmerize 
+Version: 0.1.0
+*/
+
+/* Page d'accueil */
+/* Nos chalets */
+
+.card.no-padding.bordered {
+	position: relative;
+}
+
+.card.no-padding.bordered > .col-xs-12{
+	position: absolute;
+	color: white;
+	left: 50%;
+	transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+	top: 50%;
+	z-index: 1;
+	width: 60%;
+	border: 1px solid;
+}
+
+.card.no-padding {
+	padding: 0;
+}
+
+.card.no-padding.bordered > .col-xs-12 h5, .card.no-padding.bordered .col-xs-12.inte_try h5  {
+	color: white;
+}
+
+.card.no-padding.bordered .col-xs-12 {
+	opacity: 0;
+}
+
+.card.no-padding.bordered:hover .col-xs-12{
+	opacity: 1;
+	}
+
+.card.no-padding.bordered:hover .col-xs-12 img {
+	width: 35px;
+	height: 35px;
+	margin: auto;
+}
+
+.col-xs-12.text-center.content-holder {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+}
+
+.col-xs-12.text-center.content-holder a.button.small {
+	color: transparent;
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: transparent;
+}
+
+/* Bloc Evadez vous */
+@media (min-width: 768px) {
+#contact-1 {
+	padding-top: 110px;
+	padding-bottom: 110px
+}}
+
+#contact-1 .gridContainer .row.text-center:nth-child(2) {
+	display: none;
+}
+
+/* Footer */
+
+.footer.footer-simple {
+	display: none;
+}
+
+.myfooter {
+	display: flex;
+	max-width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+}
+
+.myfooter img {
+	width: 35px;
+}
+
+.myfooter p {
+	font-size: 13px;
+	color: black;
+}
+
+.myfooter h5 {
+	margin-bottom: 10px;
+	font-size: 17px;
+}
+
+.footer_info_left, .footer_reseaux {
+	width: 25%;
+	padding: 10px 20px;
+}
+
+.footer_apropos {
+	width: 50%;
+	padding: 10px 20px;
+}
+
+.footer_info_left ul li {
+	list-style-type: none;
+	color: black;
+	font-size: 13px;
+}
+
+.footer_info_left ul li:nth-child(1) {
+	font-size: 19px;
+}
+
+
+/* Deux premiers petits blocs centraux */
+
+@media only screen and (min-width: 768px) {
+.center-sm {
+	justify-content: space-evenly;
+}}
+
+@media (min-width: 768px){
+.col-padding {
+	padding: 2px;
+    background-color: white;
+}}
+
+/* Page propre aux locations */
+
+.mesmerize-inner-page .navigation-bar.bordered {
+	border-bottom-color: transparent !important;
+}
+
+/*.page-template-page-locations .row.header-description-row, .page-template-page-ventes .row.header-description-row, .single-nosventes .row.header-description-row, 
+.single-noslocations .row.header-description-row, .page-id-15 .row.header-description-row {
+	display: none;
+}*/
+
+@media only screen and (min-width: 1024px){
+.noslocations-template-default .col-xs-12.col-sm-8.col-md-9, .nosventes-template-default .col-xs-12.col-sm-8.col-md-9 { 
+	max-width: 100%;
+	flex-basis: auto;
+}}
+
+.nosventes .post-content-single form, .noslocations .post-content-single form {
+	margin-bottom: 0;
+}
+
+.input_back {
+	width: 140px;
+    max-width: 200px;
+    border: 1px solid;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.input_back:hover {
+	border: 2px solid black;
+}
+
+.tax_pref {
+	display: inline-block;
+	color: black;
+}
+
+.noslocations-template-default h2.h1, .nosventes-template-default h2.h1 {
+	font-size: 2rem;
+	border-bottom: 1px solid #707070;
+}
+
+.noslocations-template-default .taxo_bloc, .nosventes-template-default .taxo_bloc {
+	display: flex;
+}
+
+.taxo_bloc {
+	margin-bottom: 10px;
+}
+
+.taxo_bloc div {
+	margin-right: 10px;
+}
+
+.noslocations-template-default .ico_tax, .nosventes-template-default .ico_tax {
+	width: 20px;
+	margin-right: 5px;
+}
+
+.taxo_bloc a, .taxo_bloc p {
+	font-size: 12px;
+}
+
+.taxo_bloc a, .contener_compos a {
+	pointer-events: none;
+	cursor: default;
+	color: black;
+	text-decoration: none;
+}
+
+.taxo_bloc a:nth-child(2), .taxo_bloc p:nth-child(5) {
+	font-size: 12px; 
+}
+
+.img_log_first {
+	width: 50%;
+	display: inline;
+}
+
+.compos_log {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.compos_log li {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+.icone_compos {
+	width: 45px;
+}
+
+.contener_compos {
+	width: 50%;
+	display: inline-block;
+	margin-left: -5px;
+	vertical-align: top;
+	padding: 20px 0px 0px 25px;
+}
+
+.compos_log li img, .compos_log li strong {
+	display: block;
+}
+
+.compos_log li strong {
+	font-size: 11px;
+	color: black;
+}
+
+.equip {
+	padding-bottom: 15px;
+	border-bottom: 1px solid #707070;
+}
+
+.contener_equip a {
+	font-size: 20px;
+}
+
+.post-content-inner {
+	color: black;
+}
+
+.descrip {
+	margin-top: 30px;
+}
+
+/* Page louer et acheter */
+.page-template-page-locations .swap-inner.col-xs-12 {
+	display: none;
+}
+
+.card.no-padding.bordered .col-xs-12.inte_try{
+	position: absolute;
+	color: white;
+	left: 50%;
+	transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+	top: 50%;
+	z-index: 1;
+	width: 60%;
+	border: 1px solid;
+}
+
+.inte_try p {
+	font-size: 0.875em;
+    line-height: 1rem;
+    font-style: italic;
+}
+
+.title_loc {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.title_loc + p {
+	color: black;
+	margin: 30px 0 40px 0;
+}
+
+.page-template-page-locations .button {
+	display: block;
+	margin: auto;
+	width: 30px;
+}
+
+.page-template-page-locations .row.space-bottom.spaced-cols.center-sm .col-xs-12.col-sm-4.text-center.col-md-6,
+.page-template-page-ventes .row.space-bottom.spaced-cols.center-sm .col-xs-12.col-sm-4.text-center.col-md-6 {
+	display: none;
+}
+
+.page-template-page-locations .row.space-bottom.spaced-cols.center-sm .col-xs-12.col-sm-4.text-center.col-md-6.selected, 
+.page-template-page-ventes .row.space-bottom.spaced-cols.center-sm .col-xs-12.col-sm-4.text-center.col-md-6.selected {
+  display: block;
+}
+
+.page-template-page-locations .post-content div.row :nth-child(-n+6), .page-template-page-ventes .post-content div.row :nth-child(-n+6) {
+	display: block !important;
+}
+
+.page-template-page-locations .button.small.color2 {
+	opacity: 0;
+}
+
+.page-template-page-locations button, .page-template-page-ventes button {
+    width: 140px;
+    max-width: 200px;
+    border: 1px solid;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 0;
+    cursor: pointer;
+    background: transparent;
+    display: block;
+    margin: auto;
+}
+
+.page-template-page-locations button:hover, .page-template-page-ventes button:hover {
+    border: 2px solid;
+}
+
+button.select {
+  display: none;
+}
+
+/* Page contact */
+.contener_cont {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.contener_cont div {
+	width: 45%;
+	background-color: white;
+	padding: 2px;
+}
+
+.contener_cont div.conter_gauchectc, .contener_cont .conter_droitctc {
+	border: 1px solid #ccc;
+}
+
+
+.contener_cont:first-child ul {
+	list-style-type: none;
+}
+
+.contener_cont:first-child ul li h5 {
+	font-size: 20px;
+}
+
+.contener_cont ul li, .contener_cont ul li h5 {
+	font-family: "Open Sans", sans-serif;
+	color: black;
+}
+
+.contener_cont ul li:nth-child(2), .contener_cont ul li:nth-child(3), .contener_cont ul li:nth-child(4) {
+	font-size: 14px;
+}
+
+.contener_cont ul li:nth-child(n+4) {
+	font-size: 17px;
+}
+
+.contener_cont div ul li:first-child {
+	margin-bottom: 5px;
+}
+
+.contener_cont ul li:nth-child(4) {
+	margin-bottom: 5px;
+}
+
+.contener_cont .conter_droitctc {
+	padding: 20px;
+}
+
+.contener_cont:last-child p {
+	color: black;
+	font-size: 17px;
+}
+
+.contener_cont .wpforms-container {
+	width: 100%;
+}
+
+.contener_cont div.wpcf7 {
+	width: 100%;
+}
+
+.wpcf7 form p:nth-child(3), .wpcf7 form p:nth-child(4), .wpcf7 form p:nth-child(6), .wpcf7 form p:nth-child(7) {
+	width: 48%;
+	display: inline-block;
+}
+
+.wpcf7 form p:nth-child(3), .wpcf7 form p:nth-child(6) {
+	margin-right: 3%;
+}
+
+#wpgmza_map {
+	margin-bottom: 30px;
+}
+
+#wpgmza_map div {
+	width: auto;
+}
+
+/* Responsive design */
+@media screen and (min-width: 450px) and (max-width: 900px) {
+  .page-id-15 {
+  	text-align: left;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .myfooter {
+    flex-direction: column;
+  }
+  .footer_info_left, .footer_reseaux {
+  	width: auto;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+  }
+  .footer_info_left ul {
+  	margin-bottom: 0;
+  }
+  .footer_apropos {
+  	margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .contener_cont {
+  	flex-direction: column;
+  }
+  .contener_cont div {
+  	width: 100%;
+  	margin-bottom: 30px;
+  } 
+}
+
+/* Responsive page d'accueil */
+
+@media screen and (min-width: 450px) and (max-width: 900px) {
+  .page-template-homepage .portfolio-5 .row.space-bottom.spaced-cols.center-sm {
+   flex-wrap: wrap;
+  }
+  .page-template-homepage .portfolio-5 .row.space-bottom.spaced-cols.center-sm > div {
+  	min-width: 50%;
+  }
+  .card.no-padding.bordered > .col-xs-12 {
+  	width: 90%;
+  }
+  .card.no-padding.bordered > .col-xs-12 .space-top {
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	padding: 8px 0;
+  }
+  .card.no-padding.bordered > .col-xs-12 h5 {
+  	font-size: 1.2vw;
+    margin-top: 10px;
+  }
+  .card.no-padding.bordered > .col-xs-12 p {
+  	font-size: 1.3vw;
+  }
+  .card.no-padding.bordered:hover .col-xs-12 img {
+  	width: 3vw;
+    height: 3vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page-template-homepage .hero-title {
+  	font-size: 5vw;
+  }
+/*  .page-template-homepage .header-subtitle {
+  	display: none;
+  } */
+  .page-template-homepage .section-title-col h2 {
+  	font-size: 1.8rem;
+  }
+  .page-template-homepage .section-title-col p {
+  	font-size: 16px;
+  }
+  .page-template-homepage .card.no-padding.bordered > .col-xs-12 {
+  	width: 80%;
+  }
+  .page-template-homepage .card.no-padding.bordered > .col-xs-12 h5 {
+  	font-size: 2.7vw;
+  }
+  }
+
+/* Responsive page louer/acheter */
+@media screen and (min-width: 450px) and (max-width: 900px) {
+  .page-template-page-locations .row.space-bottom.spaced-cols.center-sm .col-xs-12.col-sm-4.text-center.col-md-6, .page-template-page-ventes .row.space-bottom.spaced-cols.center-sm .col-xs-12.col-sm-4.text-center.col-md-6 {
+  	min-width: 50%;
+  }
+  .page-template-page-locations .card.no-padding.bordered .col-xs-12.inte_try, .page-template-page-ventes .card.no-padding.bordered .col-xs-12.inte_try {
+  	width: 90%;
+  }
+  .page-template-page-locations .col-xs-12.inte_try .space-top, .page-template-page-ventes .col-xs-12.inte_try .space-top {
+  	margin-bottom: 0;
+  	margin-top: 0;
+  }
+  .page-template-page-locations .col-xs-12.inte_try h5, .page-template-page-ventes .col-xs-12.inte_try h5 {
+  	font-size: 1vw;
+    margin-top: 10px;
+  }
+  .page-template-page-locations .col-xs-12.inte_try p, .page-template-page-ventes .col-xs-12.inte_try p {
+  	font-size: 1.3vw;
+  }
+  .page-template-page-locations .col-xs-12.inte_try img, .page-template-page-ventes .col-xs-12.inte_try img {
+  	width: 3vw;
+    height: 3vw;
+  }
+  .page-template-page-locations .col-xs-12.inte_try .space-top, .page-template-page-ventes .col-xs-12.inte_try .space-top  {
+  	padding: 8px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page-template-page-locations .spaced-cols > div, .page-template-page-ventes .spaced-cols > div {
+  	padding: 0px;
+  }
+  .card.no-padding.bordered .col-xs-12.inte_try, .page-template-page-ventes .col-xs-12.inte_try {
+  	width: 90%;
+  }
+  .page-template-page-locations .space-bottom.space-top, .page-template-page-ventes .space-bottom.space-top {
+  	padding: 1rem 0;
+  	margin: 0;
+  }
+  }
+
+/* Responsive page contact */
+
+@media screen and (max-width: 450px) {
+  .conter_droitctc .wpcf7-form p, .wpcf7 form p:nth-child(3), .wpcf7 form p:nth-child(4), .wpcf7 form p:nth-child(6), .wpcf7 form p:nth-child(7) {
+  	width: 100%;
+  }
+  }
+
+/* Responsive page propre aux chalets */
+@media screen and (min-width: 900px) and (max-width: 1150px) {
+  .noslocations-template-default .contener_compos, .nosventes-template-default .contener_compos {
+  	padding-top: 0;
+  }
+  .noslocations-template-default .contener_compos .compos_log, .nosventes-template-default .contener_compos .compos_log {
+  	margin-left: 0;
+  }
+  .noslocations-template-default .compos_log li strong, .nosventes-template-default .compos_log li strong {
+  	font-size: 9px;
+  }
+}
+
+.noslocations-template-default .col-xs-12.col-sm-8.col-md-9, .nosventes-template-default .col-xs-12.col-sm-8.col-md-9 {
+  	width: 100%;
+  	max-width: 100%;
+  	flex-basis: 100%;
+  }
+
+@media screen and (min-width: 450px) and (max-width: 900px) {
+  .noslocations-template-default .img_log_first, .nosventes-template-default .img_log_first {
+  	width: 100%;
+  }
+  .noslocations-template-default .contener_compos, .nosventes-template-default .contener_compos {
+  	width: 100%;
+  	padding: 0;
+  	margin: 0;
+  }
+  .noslocations-template-default .compos_log, .nosventes-template-default .compos_log {
+  	margin:30px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .noslocations-template-default .img_log_first, .nosventes-template-default .img_log_first {
+  	width: 100%;
+  }
+  .noslocations-template-default h2.h1, .nosventes-template-default h2.h1 {
+  	font-size: 1.5rem
+  }
+  .noslocations-template-default .contener_compos, .nosventes-template-default .contener_compos {
+  	width: 100%;
+    padding: 0;
+  }
+  .nosventes-template-default .compos_log , .noslocations-template-default .contener_compos {
+  	margin: 0;
+  }
+  .nosventes-template-default .compos_log li, .noslocations-template-default .contener_compos li {
+  	width: 50%;
+  }
+  .compos_log {
+  	margin: 0;
+  }
+  .taxo_bloc {
+  	flex-direction: column;
+  	align-items: baseline;
+  }
+  }
+
+.page-template-page-locations p.header-subtitle, .page-template-page-ventes p.header-subtitle, .page-id-15 p.header-subtitle {
+  display: none;
+}
+

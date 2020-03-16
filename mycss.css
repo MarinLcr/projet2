@@ -1,0 +1,112 @@
+.row { 
+	width: 100%; 
+}
+
+.form-control.w-100.mr-auto.rounded-0, .btn.btn-theme.w-100.rounded-0 {
+	height: 50px;
+}
+
+.btn.btn-theme.w-100.rounded-0 {
+	border: 2px;
+}
+
+#demo {
+	margin-top: 50px;
+}
+
+.footer.py-3 {
+	position: inherit !important;
+}
+
+body {
+	margin-bottom: 0 !important;
+}
+
+body.content_int {
+	background-color: #F5F5F5;
+}
+
+.container_acc {
+	max-width: 1100px;
+    width: 85%;
+}
+
+.container_cont {
+	max-width: 1000px;
+	width: 85%;
+	background-color: #F5F5F5;
+	margin-top: 135px;
+}
+
+.container_cont .row {
+	background-color: white;
+	margin: 0;
+	padding: 65px 0;
+}
+
+.content_txt_acc {
+	background-color: #F0F0F0;
+}
+
+.partner {
+	height: 80px;
+}
+
+a.navbar-brand img {
+	height: 23px;
+}
+
+.navbar-light .navbar-toggler-icon {
+	background-image: url("http://projet2.leclercmarin.fr/img/hamb.png")
+}
+
+.navbar.fixed-top.navbar-light.navbar-expand-sm.navbar-template {
+	background-color: black;
+}
+
+h2 { 
+font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 42px;
+	line-height: 52px;
+}
+
+h3 {
+font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 28px;
+	line-height: 50px;	
+}
+
+h4 {
+font-family: 'Molengo', Georgia, Times, serif;
+	font-size: 21px;
+	line-height: 50px;	
+}
+
+p { 
+font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.actu {
+	border-bottom: 1px solid black;
+}
+
+.actu a {
+	color: black;
+}
+
+.trytest {
+	background-image:url(images/image_de_fond.png);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+
+
+
+
+
+
+
+
+
